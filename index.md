@@ -1,4 +1,4 @@
----
-title: Welcome to my blog
+TCG website for selling cards---
+title: TCG site
 ---
 
