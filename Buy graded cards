@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('bg3.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 20%;
+            height: 70px;
+            position: top;
+            top:20px;
+            right: 0;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        .navbar a {
+            display: block;
+            color: #e9cb24;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            background-color: #fc0404;
+            color: #d9ff00d0;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 10px;
+            padding: 10px;
+        }
+    .grid-item img {
+        max-width: 100%;
+        height: auto;
+    }
+        .grid-item {
+            border: 1px solid #000000;
+            padding: 20px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.445);
+        }
+        .description {
+            color: #000000;
+        }
+        .price {
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <a href="#Buy cards" target="_blank">Buy Cards</a>
+            <a href="#TCG site">Home</a>
+        </nav>
+    </header>
+    <h1>Cards available for purchase</h1>
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <img src="Graded um.webp" alt="Card 1">
+                            <p class="description">Umbreon VMAX (Alternate Art Secret)</p>
+                            <p class="price">Price: $3000.00</p>
+                            <a href="#buy-now" class="buy-now">Buy Now</a>
+                        </div>
+                        <div class="grid-item">
+                            <img src="graded ger.webp" alt="Card 4">
+                            <p class="description">Giratina V (Alternate Full Art)</p>
+                            <p class="price">Price: $900.00</p>
+                            <a href="#buy-now" class="buy-now">Buy Now</a>
+                        </div>
+                        <div class="grid-item">
+                            <img src="graded ray.webp" alt="Card 6">
+                            <p class="description">Rayquaza VMAX (Alternate Art Secret)</p>
+                            <p class="price">Price: $2000.00</p>
+                            <a href="#buy-now" class="buy-now">Buy Now</a>
+                        </div>
+                        <div class="grid-item">
+                            <img src="draga graded.webp" alt="Card 8">
+                            <p class="description">Dragapult EX 221/187 SAR </p>
+                            <p class="price">Price: $65.00</p>
+                            <a href="#buy-now" class="buy-now">Buy Now</a>
+                        </div>
+                        <div class="grid-item">
+                            <img src="LUGIA GRAD.jpg" alt="Card 9">
+                            <p class="description">Lugia V (Alternate Full Art)</p>
+                            <p class="price">Price: $350.00</p>
+                            <a href="#buy-now" class="buy-now">Buy Now</a>
+                        </div>
+                        <div class="grid-item">
+                            <img src="roaring moon grad.webp" alt="Card 10">
+                            <p class="description">Roaring Moon ex </p>
+                            <p class="price">Price: $100.00</p>
+                            <a href="#buy-now" class="buy-now">Buy Now</a>
+                        </div>
+                        <div class="grid-item">
+                            <img src="geng grad.webp" alt="Card 10">
+                            <p class="description">Gengar VMAX (Alternate Art Secret)</p>
+                            <p class="price">Price: $750.00</p>
+                            <a href="#buy-now" class="buy-now">Buy Now</a>
+                        </div>
+
+
+    </div>
+</body>
+</html>

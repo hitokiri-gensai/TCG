@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('pokemon-card-background-1280-x-1024-9vwegan3xxmq2flv.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #e3f307fd;
+        }
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 30%;
+            height: 100px;
+            position: fixed;
+            top:20px;
+            right: 0;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        .navbar a {
+            display: block;
+            color: #e9cb24;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            background-color: #fc0404;
+            color: #d9ff00d0;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 10px;
+            padding: 10px;
+            margin-top: 80px;
+        }
+        .grid-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        .grid-item {
+            border: 1px solid #000000;
+            padding: 20px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        .description {
+            color: #000000;
+        }
+        .price {
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <a href="#Buy graded cards">Buy Graded Cards</a>
+            <a href="#TCG site">Home</a>
+        </nav>
+    </header>
+    <h1>Cards available for purchase</h1>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="card 1.jpg" alt="Card 1">
+            <p class="description">Umbreon VMAX (Alternate Art Secret)</p>
+            <p class="price">Price: $1639.99</p>
+            <a href="#buy-now" class="buy-now">Buy Now</a>
+        </div>
+        <div class="grid-item">
+            <img src="card 2.jpg" alt="Card 2">
+            <p class="description">Charizard ex</p>
+            <p class="price">Price: $204.99</p>
+            <a href="#buy-now" class="buy-now">Buy Now</a>
+        </div>
+        <div class="grid-item">
+            <img src="card 3.jpg" alt="Card 3">
+            <p class="description">Arceus V (Alternate Full Art)</p>
+            <p class="price">Price: $43.74</p>
+            <a href="#buy-now" class="buy-now">Buy Now</a>
+        </div>
+        <div class="grid-item">
+            <img src="card 4.jpg" alt="Card 4">
+            <p class="description">Giratina V (Alternate Full Art)</p>
+            <p class="price">Price: $849.99</p>
+            <a href="#buy-now" class="buy-now">Buy Now</a>
+        </div>
+        <div class="grid-item">
+            <img src="magikarp.jpg" alt="Card 5">
+            <p class="description">Magikarp - 203/193</p>
+            <p class="price">Price: $195.00</p>
+            <a href="#buy-now" class="buy-now">Buy Now</a>
+        </div>
+        <div class="grid-item">
+            <img src="ray.jpg" alt="Card 6">
+            <p class="description">Rayquaza VMAX (Alternate Art Secret)</p>
+            <p class="price">Price: $800.00</p>
+            <a href="#buy-now" class="buy-now">Buy Now</a>
+        </div>
+        <div class="grid-item">
+            <img src="char.webp" alt="Card 7">
+            <p class="description">Mega M Charizard EX 108/106 (Secret Rare)</p>
+            <p class="price">Price: $250.00</p>
+            <a href="#buy-now" class="buy-now">Buy Now</a>
+        </div>
+        <div class="grid-item">
+            <img src="drag.jpg" alt="Card 8">
+            <p class="description">Dragonite V (Alternate Full Art)</p>
+            <p class="price">Price: $195.00</p>
+            <a href="#buy-now" class="buy-now">Buy Now</a>
+        </div>
+        <div class="grid-item">
+            <img src="lug.jpg" alt="Card 9">
+            <p class="description">Lugia V (Alternate Full Art)</p>
+            <p class="price">Price: $300.00</p>
+            <a href="#buy-now" class="buy-now">Buy Now</a>
+        </div>
+        <div class="grid-item">
+            <img src="gen.jpg" alt="Card 10">
+            <p class="description">Gengar VMAX (Alternate Art Secret)</p>
+            <p class="price">Price: $700.00</p>
+            <a href="#buy-now" class="buy-now">Buy Now</a>
+        </div>
+    </div>
+</body>
+</html>
