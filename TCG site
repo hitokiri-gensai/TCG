@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCG Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://example.com/pokemon-background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+        .navbar {
+            background-color: #ffcb05;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #3b4cca;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            background-color: #3b4cca;
+            color: #ffcb05;
+        }
+        .content {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            margin: 20px;
+        }
+        h1 {
+            font-family: 'Pokemon Solid', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#contact">Contact</a>
+        <a href="#buy-cards">Buy Cards</a>
+        <a href="#buy-graded-cards">Buy Graded Cards</a>
+    </div>
+    <div class="content">
+        <h1>Welcome to TCG Website</h1>
+        <p>This is the main page content.</p>
+        <p>Welcome to my page! Here, I sell Pokemon cards that are graded and ungraded, along with ETB boxes and single packs.</p>
+    </div>
+</body>
+</html>
