@@ -15,10 +15,10 @@
         }
         .navbar {
             background-color: rgba(0, 0, 0, 0.5);
-            width: 20%;
-            height: 70px;
+            width: 150px;
+            height: 120px;
             position: top;
-            top:20px;
+            top: 0;
             right: 0;
             display: flex;
             justify-content: flex-end;

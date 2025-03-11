@@ -15,8 +15,8 @@
         }
         .navbar {
             background-color: rgba(0, 0, 0, 0.5); /* Adjusted for transparency */
-        width: 100px;
-        height: 20vh;
+        width: 80px;
+        height: 27vh;
         border-radius: 500px;
         position: left;
         top: 0;
@@ -62,6 +62,7 @@
             <a href="#Contact">Contact</a>
             <a href="#Buy cards" target="_blank">Buy Cards</a>
             <a href="#Buy graded cards">Buy Graded Cards</a>
+            <a href="#User sign in">User sign in</a>
         </nav>
     </header>
     <main class="content">
